@@ -96,6 +96,8 @@ public final class CartTools {
     }
 
     public static void explodeCart(EntityMinecart cart) {
+        // Begone, explosions
+        return;
         if (cart.isDead)
             return;
         HighSpeedTools.setTravellingHighSpeed(cart, false);
