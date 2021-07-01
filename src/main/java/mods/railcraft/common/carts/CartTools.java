@@ -98,6 +98,7 @@ public final class CartTools {
     public static void explodeCart(EntityMinecart cart) {
         // Begone, explosions
         return;
+        /*
         if (cart.isDead)
             return;
         HighSpeedTools.setTravellingHighSpeed(cart, false);
@@ -109,6 +110,7 @@ public final class CartTools {
         cart.world.newExplosion(cart, cart.posX, cart.posY, cart.posZ, 3F, true, true);
         if (MiscTools.RANDOM.nextInt(2) == 0)
             cart.setDead();
+        */
     }
 
     public static boolean cartVelocityIsLessThan(EntityMinecart cart, float vel) {
